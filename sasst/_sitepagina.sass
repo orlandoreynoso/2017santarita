@@ -2,6 +2,33 @@
   .con
     .interiores
       padding-top: 20px
+      .header-title
+        width: 100%
+        padding: 10px
+        margin-bottom: 30px
+        display: flex
+        flex-wrap: wrap
+        flex-flow: row
+        justify-content: space-between
+        align-items: flex-end
+        position: relative
+        &::after
+          position: absolute
+          right: 20px
+          bottom: -10px
+          content: ""
+          background-color: rgba($m-verde,0.5)
+          height: 1px
+          display: block
+          width: 97%
+      .mapeo
+        .current
+          display: none
+      .titulos-page
+        border-right: 5px solid $celeste
+        padding: 0px 20px 0px 20px
+        font-size: 1.5em
+        text-align: right
   .side
     padding-top: 20px
     .entradas

@@ -1,14 +1,16 @@
 .agrupaciones-desglose
 	box-sizing: border-box
-	padding: 20px
 	.c-agrupaciones
 		display: flex
 		flex-flow: row wrap
 		width: 100%
 		box-sizing: border-box
+		.titulo-pastorales
+			@include tituloafter($m-azul,$m-rojo)
 		.list
 			box-sizing: border-box
-			width: 25%
+			width: calc(var(--sizem)/4)
+			text-align: center
 			padding: 10px
 			margin-bottom: 12px
 			@media screen and (max-width: 600px)
@@ -36,7 +38,6 @@
 					h5
 						font-size: 1em
 						line-height: 1.5em
-						font-family: 'Open Sans', Arial, sans-serif
 						margin-left: 5px
 						font-weight: 600
 						color: $m-verde
@@ -65,9 +66,9 @@
 					text-decoration: none
 					transition: 0.5s ease
 					&:hover
-						color: $m-amarillo
+						color: $celeste
 						h5
-							color: $m-amarillo
+							color: $celeste
 					h5
 						font-size: 1em
 						line-height: 1.5em
