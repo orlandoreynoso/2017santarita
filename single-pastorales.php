@@ -1,8 +1,8 @@
 <?php
 
 /*
-Template Name: Single peregrinaciones
-Template Post Type: post, page, product, peregrinaciones
+Template Name: Single pastorales
+Template Post Type: post, page, product, peregrinaciones, boletines, pastorales
  */
 
  get_header();
@@ -17,7 +17,7 @@ Template Post Type: post, page, product, peregrinaciones
         <!-- ************** CONTENIDO DESPLEGABLE PARA EL BLOG ***  -->
 
   <article class="conten">
-    <?php echo "Desde el single peregrinaciones"; ?>
+    <?php echo "Desde el single de pastorales .....ok"; ?>
       <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
 <!-- *********************************** -->
 

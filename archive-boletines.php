@@ -4,7 +4,7 @@
 
 /*
 
-  Template Name: archivo para peregrinaciones
+  Template Name: archivo para boletines
   Template Post Type: post, page, product, peregrinaciones
 
 */
@@ -38,7 +38,7 @@
           </div>
 		  
 
-          	<?php echo 'estoy desde el archivo de peregriaciones'; ?>
+          	<?php echo 'estoy en archivo de boletines'; ?>
 
             <?php if ( have_posts() ) : ?>
 

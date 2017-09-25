@@ -9,9 +9,15 @@
   <div class="container">
      <div class="row">
           <div class="col-xs-12 col-md-12 con">
-          <div class="titulo">
-            <div class="mapeo"><?php the_breadcrumb(); ?></div>
-          </div>
+          <div class="interiores">
+            <div class="header-title">
+              <div class="titulo">
+                <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
+              </div>
+              <div class="titulos-page">
+                <?php the_title(); ?>
+              </div>
+            </div>
               <?php
 
                 $pagina_id = get_the_ID();
@@ -59,7 +65,6 @@
                     <?php endwhile;?>
                 </div>
           </div>
-          <div class="interiores">
             <?php //  echo  'estoy en page';      ?>
             <?php /*
               while ( have_posts() ) : the_post();
